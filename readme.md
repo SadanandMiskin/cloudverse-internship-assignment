@@ -2,8 +2,8 @@
 
 
 ## Overview
-* This is a basic web application built using Node.js and Express.js, featuring user authentication, JSON Web Token (JWT) generation, and the ability to display data from an external API on the dashboard,To create the access token and then using that to call another API.
-
+* This is a basic web application built using Node.js and Express.js, EJS, featuring user authentication, JSON Web Token (JWT) generation, and the ability to display data from an external API on the dashboard,To create the access token and then using that to call another API.
+  
 ## Getting Started
 
 ### 1. Clone the Repository
