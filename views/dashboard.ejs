@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+       body{
+        background-color: rgb(122, 224, 224);
+       }
+       .head{
+        background-color: #bbbbbb;
+    padding: 3px;
+    padding-left: 44%;
+    border-radius: 11px;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="head">
+ <h1>Hello 👋, <%= username %> </h1> 
+ <form action="/logout" method="post">
+    <button type="submit"  style="padding: 3px; background-color: black; color: white;">Logout</button>
+ </form>
+    </div>
+    <iframe src="<%= apiDataRoute %>" style="border: none; width: 100%; height: 400px;"></iframe>
+</body>
+</html>

@@ -1,0 +1,74 @@
+*{
+  margin: 0,
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+body {
+  background-image: url('background.png');
+  background-color: #141ac2ff;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  
+  
+}
+
+.container{
+  margin-top: 2%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+form{
+  width: 300px;
+ height: 398px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: -95px;
+  display: grid;
+}
+
+
+input{
+  background-color: #141ac2ff;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: white 2px solid;
+  color: white;
+  border-radius: 4px;
+}
+
+button{
+  margin-top: 20px;
+  padding: 10px;
+  color: blue;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+img{
+  width: 95px;
+      /* height: 61px; */
+      padding: 51px;
+      padding-left: 85px;
+}
+
+p{
+  /* float: right; */
+  display: flex;
+  flex-direction: row-reverse;
+  color: white;
+}
+
+
