@@ -27,3 +27,11 @@
 - JWT token for aurthorization
 - express-session and cookies for authentication
 - mongoDB for storing user details
+
+
+### Output 
+ {
+     {jwt_token},
+     {jwt_decoded_value},
+     {api_response_data}
+ }
